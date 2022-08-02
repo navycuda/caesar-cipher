@@ -1,6 +1,6 @@
 // Required
 const assert = require(`chai`).assert;
-const { encrypt } = require(`../caesar`);
+const encrypt = require(`../caesar`);
 
 // Testing
 describe("caesar.encrypt", () => {
